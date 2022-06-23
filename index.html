@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>หมอหมึก</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-[#612378] text-white font-serif">
+    <nav class="w-full h-10 border flex justify-end items-center gap-x-2 px-2 border-white py-1">
+      <a href="" class="md:block hidden">เกี่ยวกับหมอหมึก</a>
+      <a href="" class="md:block hidden">บทความ</a>
+      <a href="" class="md:block hidden">จองคิว</a>
+      <div class="md:hidden block">
+            <svg id="hamburgerBtn" class="border border-white rounded-md fill-current cursor-pointer"
+                xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 512 512">
+                <path id="hamburgerBtn" d="M64,384H448V341.33H64Zm0-106.67H448V234.67H64ZM64,128v42.67H448V128Z" />
+            </svg>
+            <div id="menu"
+                class="absolute mt-2 right-2 flex flex-col p-2 bg-white text-black rounded-md shadow-md hidden">
+                <a class="hover:bg-[#77777777]" href="">เกี่ยวกับหมอหมึก</a>
+                <a class="hover:bg-[#77777777]" href="">บทความ</a>
+                <a class="hover:bg-[#77777777]" href="">จองติว</a>
+            </div>
+      </div>
+    </nav>
+  <header class=" w-full  text-center ">
+   <p class="my-2 text-5xl">หมอหมึก</p>
+   <p class="my-5">ผู้มีประสบการณ์พยากรณ์กว่า 10 ปี พร้อมคำพยากรณ์ที่แม่นยำ</p>
+   <a class="py-2 px-7  bg-white text-[#612378]">จอง</a>
+  </header>
+  <section class="my-10 px-5 mx-10">
+    <div class="flex flex-col-reverse w-full md:w-8/12 mx-auto md:flex-row">
+      <div class="mx-5 md:w-1/2 ">
+        <p class="text-3xl my-2 ">ประวัติหมอหมึก</p>
+        <p class>หมอหมึกเป็นนักพยากรณ์ที่ชำนาญด้านการทำนายดวงด้วยลูกแก้วพยากรณ์ ไพ่ทาโร่ และการดูลายมือ</p>
+        <p>ด้วยความสามารถที่หลากหลาย ทำให้หมอหมึกสามารถเลือกวิธีการทำนายที่เหมาะสมกับแต่ละบุคคลเพื่อให้ได้ผลลัพธ์แม่นยำที่สุด</p>
+      </div>
+      <img src="https://pbs.twimg.com/profile_images/836905817949384704/HO_IY8Tt_400x400.jpg" alt="รูปแม่หมอ"class="md:w-1/2 ">
+    </div>
+  </section>
+  <section class=" mt-20  ">
+    <p class="text-center text-4xl my-5">รีวิวจากลูกค้า</p> 
+    <div class="w-full flex justify-center ">
+      <div class="grid md:grid-cols-3 w-9/12 grid-cols-1">
+      <div class="flex flex-col items-center mx-2" >
+        <img src="https://s3.amazonaws.com/prod.skimble/photos/29359/hstzsdw4avx_iphone.gif" alt="รูปลูกค้า" class="w-2/5 rounded-full">
+        <p class="text-2xl">แมทธิว นักธุรกิจ</p>
+        <p>หมอหมึกช่วยผมหรื่องฤกษ์ยามในการเจรจาธุรกิจได้มากเลยตอนนี้ขายดีเทน้ำเทท่าเลยครับ</p>
+      </div>
+      <div class="flex flex-col items-center mx-2">
+        <img src="https://s3.amazonaws.com/prod.skimble/photos/29359/hstzsdw4avx_iphone.gif" alt="รูปลูกค้า" class="w-2/5 rounded-full">
+        <p class="text-2xl">แจ็ค นักแสดง</p>
+        <p>ต้องขอบคุณหมอหมึกในการช่วยให้ความสัมพันธ์ราบรื่นด้วยนะคะทำนายอะไรไว้ก็แม่นทุกอย่างเลยค่ะ</p>
+      </div>
+      <div class="flex flex-col items-center mx-2">
+        <img src="https://s3.amazonaws.com/prod.skimble/photos/29359/hstzsdw4avx_iphone.gif" alt="รูปลูกค้า" class="w-2/5 rounded-full">
+        <p class="text-2xl">น้ำใส นักศึกษา</p>
+        <p>ที่หมอหมึกบอกมานะคะเกิดเกือบหมดเลยค่ะถ้าไม่ได้หมอหมึกช่วยไว้ ชีวิตคงแย่เลยค่ะดีนะที่ป้องกันเรื่่องร้ายๆ ทันเวลา</p>
+      </div>
+    </div>
+    </div>
+  </section>
+  <footer class="w-full  flex justify-center">
+    <div class="flex my-10 md:justify-between w-full md:w-9/12 flex-col md:flex-row justify-center mx-5 ">
+       <img src="https://cdn.discordapp.com/attachments/988743684679942154/989131857549475890/Wizarding-School-Map-Durmstrang_1.webp" alt="map" class="md:w-1/2 mx-5 " >
+     <div class="md:w-1/2">
+       <p class="text-3xl my-3">ทำนายชะตากับหมอหมึก</p>
+       <p class="my-2">สามารถจองคิวได้ในเว็ปหรือ อีเมล: octopus_fortune@teller.com โทรศัพท์:099 XXXX XXX และมาที่สำนักที่ ชั้นอาคาร 12 อาคาร JWC ถนนโปรแกรมมิ่ง แขวงเว็บ เขตอินเตอร์เน็ต กรุงเทพ 99999 ตามเวลาที่นัดไว้</p>
+       <p>จำกัดที่ 10 คิวต่อหนึ่งวัน เปิดทำการ 10.00 18.30 น. พัก 12.00 - 13.00 น. เปิดทุกวันอาคารถึงเสาร์ หยุดวันจันทร์และอาทิตย์</p>
+     </div>
+    </div>
+  </footer>
+  <script>
+        document.addEventListener('click', (e) => {
+            let menu = document.querySelector("#menu")
+            if (e.target.id == "hamburgerBtn") {
+                menu.classList.toggle("hidden")
+            }else{
+                menu.classList.add("hidden")
+            }
+        })
+    </script>
+</body>
+
+</html>
